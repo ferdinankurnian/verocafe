@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     startAutoplay();
-      
+    
     // Event listeners for manual control
     nextButton.addEventListener("click", () => {
         stopAutoplay();

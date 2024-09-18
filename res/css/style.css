@@ -195,10 +195,6 @@ div.content > section {
   background-color: #EEEEEE;
 }
 
-#contact-us {
-  background-color: #aa7d5a;
-}
-
 .carousel {
   position: relative;
   margin: 0 auto;
@@ -393,7 +389,6 @@ div.content > section {
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
-  padding: 20px;
   border: 1px solid #888;
   width: 80%;
   max-width: 1000px; /* Optional: set a max-width */
@@ -408,6 +403,7 @@ div.content > section {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  padding: 5px 15px;
 }
 
 .close:hover,
@@ -439,6 +435,12 @@ div.content > section {
 
 .textareabox {
   height: 100px;
+}
+
+.modal .content-detail {
+  padding: 25px;
+  overflow: auto;
+  width: 100%;
 }
 
 footer {
