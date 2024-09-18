@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.d {
+    &-inline {
+        &-flex {
+            display: inline-flex;
+        }
+    }
+    &-flex {
+        display: flex;
+    }
+    &-grid {
+        display: grid;
+    }
+}
+
+.flex-dir {
+    &-row {
+        flex-direction: row;
+    }
+    &-col {
+        flex-direction: column;
+    }
+}
+
+.align-items {
+    &-center {
+        align-items: center;
+    }
+}
+
+.justify-content {
+    &-center {
+        justify-content: center;
+    }
+    &-between {
+        justify-content: space-between;
+    }
+    &-around {
+        justify-content: space-around;
+    }
+}
+
+.h {
+    &-50 {
+        height: 50%;
+    }
+
+    &-100{
+        height: 100%;
+    }
+}
+
+.text {
+    &-center {
+        text-align: center;
+    }
+
+    &-secondary {
+        color: #808080;
+    }
+
+    &-midbold {
+        font-weight: 500;
+    }
+
+    &-bold {
+        font-weight: 700;
+    }
+
+    &-header-section {
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+a[role="button"] {
+    cursor: pointer;
+}

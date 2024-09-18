@@ -4,15 +4,356 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VeroCaffè</title>
-    <!-- Local/Own CSS -->
-    <link rel="stylesheet" href="res/css/style.css">
+
+    <link rel="shortcut icon" href="assets/brand/2.svg" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- Local/Own  -->
+    <link rel="stylesheet" href="res/css/style.css">
 </head>
 <body>
-    <h1>VeroCaffè is here!</h1>
+    <div class="modal-group">
+        <div id="modalAboutUs" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">×</span>
+                <p>Some text in the 
+                    What is Lorem Ipsum?
+                    
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Why do we use it?
+                    
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    
+                    What is Lorem Ipsum?
+
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Why do we use it?
+
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+                    What is Lorem Ipsum?
+
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Why do we use it?
+
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
+            </div>
+        </div>
+        <div id="modalCoffeeLatte" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">×</span></h1>
+                <div class="d-flex">
+                    <div style="background-image: url('assets/items/Rectangle\5-11.png');width: 20px;height: 50px;" class="content-img">
+                    </div>
+                    <div class="content-detail">
+                        <h1>Coffee Latte</h1>
+                        <h5>Kopi dengan susu yang berpadu dengan kenikmatan yang tiada tara...</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="home" class="first">
+        <div class="navbar">
+            <nav id="nav" class="nav nav-light nav-overlay">
+                <div class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#about-us" class="nav-link">Tentang Kami</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#contact-us" class="nav-link">Kontak Kami</a>
+                </div>
+            </nav>
+            <div class="nav-onstay">
+                <div class="nav-onstay-container">
+                    <div class="nav-brand">
+                        <img src="assets/brand/1.svg" height="50" alt="VeroCaffè Brands">
+                    </div>
+                    <div class="nav-action">
+                        <div style="gap: 0.5rem;" class="d-flex flex-dir-row">
+                            <a href="">EN</a>
+                            |
+                            <a href="">ID</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel" class="carousel">
+            <div class="carousel-content">
+                <div class="carousel-item carousel-item-visible">
+                    <div class="d-flex flex-dir-row align-items-center justify-content-around h-100">
+                        <div class="detail-carousel">
+                            <h1 style="font-size: 4rem;margin: 0;" class="bree-serif">Welcome to</h1>
+                            <h1 style="font-size: 3.5rem;margin: 0;margin-bottom: 10px;" class="bree-serif">VeroCaffè</h1>
+                        </div>
+                        <img src="assets/brand/2.svg" alt="Promo Waffle" />
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-dir-row align-items-center justify-content-around h-100">
+                        <div class="detail-carousel">
+                            <h1 style="font-size: 4rem;margin: 0;" class="bree-serif">Buy 1 Coffee Latte</h1>
+                            <h1 style="font-size: 3.5rem;margin: 0;margin-bottom: 10px;" class="bree-serif">with Croissant</h1>
+                            <h1 style="font-size: 3rem; opacity: 0.5;margin-bottom: 1rem" class="bree-serif">Free Waffle</h1>
+                            <p style="opacity: 0.5;margin-bottom: 2rem">Sampai tanggal 20 September 2024.</p>
+                            <a style="gap: 5px;" href="" class="btn-primary btn-rounded d-inline-flex flex-dir-row align-items-center">Get Now <span class="material-symbols-outlined">double_arrow</span></a>
+                        </div>
+                        <img src="assets/Banner1.png" alt="Promo Waffle" />
+                    </div>
+                </div>  
+                <div class="carousel-item">
+                    <div class="d-flex flex-dir-row align-items-center justify-content-around h-100">
+                        <div class="detail-carousel">
+                            <h1 style="font-size: 4rem;margin: 0;" class="bree-serif">Get 20% off</h1>
+                            <h1 style="font-size: 3rem; opacity: 0.5;margin-bottom: 1rem" class="bree-serif">Buy 4 Coffee Latte</h1>
+                            <p style="opacity: 0.5;margin-bottom: 2rem">Sampai tanggal 20 September 2024.</p>
+                            <a style="gap: 5px;" href="" class="btn-primary btn-rounded d-inline-flex flex-dir-row align-items-center">Get Now <span class="material-symbols-outlined">double_arrow</span></a>
+                        </div>
+                        <img src="assets/promo.png" alt="Promo Waffle" />
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-actions">
+                <button id="carousel-button-prev" aria-label="Previous"><span class="material-symbols-outlined">chevron_left</span></button>
+                <button id="carousel-button-next" aria-label="Next"><span class="material-symbols-outlined">chevron_right</span></button>
+            </div>
+            <div class="carousel-indicators">
+                <div class="carousel-dots">
+                    <input class="dot selected-dot" type="radio" name="dot" checked />
+                    <input class="dot" type="radio" name="dot" />
+                    <input class="dot" type="radio" name="dot" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="content">
+        <section id="about-us">
+            <div class="photo-side">
+                <img src="assets/Photo.png" alt="About VeroCaffè">
+            </div>
+            <div class="detail-side">
+                <h1 class="bree-serif">Nikmati hari mu dengan VeroCaffè yang bisa menemani pagi hari mu dengan indah</h1>
+                <p>Didirikan pada tahun 2020, VeroCaffè selalu menggunakan biji kopi yang berkualitas untuk mempertahankan rasa kopi Italia yang autentik.</p>
+                <p>Kami berkomitmen untuk memperhatikan dari segi rasa, kualitas, maupun kebersihan. </p>
+                <a style="gap: 5px;width: fit-content;" role="button" data-modal-id="modalAboutUs" class="modal-btn btn-primary btn-rounded d-inline-flex flex-dir-row align-items-center">Pelajari Selengkapnya <span class="material-symbols-outlined">double_arrow</span></a>
+            </div>
+        </section>
+        <section id="menu" class="d-flex flex-dir-col">
+            <h1 class="text-header-section text-center">Menu</h1>
+            <div class="category-section">
+                <div class="category-cards">
+                    <div class="card active">
+                        <span style="font-size: 30px;" class="material-symbols-outlined">grid_view</span>
+                        <h5>Semua</h5>
+                        <p>15 Items</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/category/Screenshot_2024-09-11_100315-removebg-preview 1.png" alt="">
+                        <h5>Coffee</h5>
+                        <p>5 Items</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/category/Screenshot_2024-09-11_100050-removebg-preview 1.png" alt="">
+                        <h5>Tea</h5>
+                        <p>5 Items</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/category/Screenshot_2024-09-11_100143-removebg-preview 1.png" alt="">
+                        <h5>Roti</h5>
+                        <p>5 Items</p>
+                    </div>
+                </div>
+            </div>
+            <div class="items-section">
+                <h3 class="text-center">Semua menu</h3>
+                <div class="item-cards">
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                    <a data-modal-id="modalCoffeeLatte" role="button" class="card modal-btn">
+                        <div style="background-image: url('assets/items/Rectangle\ 5-11.png');" class="card-image">
+                        </div>
+                        <div class="card-detail">
+                            <h5 class="text-midbold">Coffee Latte</h5>
+                            <h6 class="text-secondary">32 Stok</h6>
+                            <h4 class="text-bold">Rp. 24.000</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contact-us">
+            <div class="card d-flex flex-dir-row">
+                <div class="photo-decor">
+                    <iframe style="height: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.475156525223!2d109.22019149428851!3d-7.424376243881278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655e63847ad525%3A0x1094a0176a4f7eec!2sAlun%20Alun%20Kota%20Purwokerto!5e0!3m2!1sid!2sid!4v1726617185462!5m2!1sid!2sid" width="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <img src="assets/contactus.png" alt="Contact Us"> -->
+                </div>
+                <div class="contact-us-field">
+                    <h2 class="text-center">Kontak Kami</h2>
+                    <p class="text-center">Beritahu kami jika kamu punya kritik atau saran.</p>
+                    <form action="" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" class="textbox" id="name" placeholder="Isi nama kamu..">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="textbox" id="email" placeholder="Isi email kamu..">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek</label>
+                            <input type="text" class="textbox" id="subject" placeholder="Aku ingin bertanya sesuatu..">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" class="textareabox" placeholder="Tulis pesan disini.."></textarea>
+                        </div>
+                        <button style="width: fit-content; cursor: pointer;" class="btn-primary btn-rounded" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <h4 class="text-center text-midbold">Copyright © 2024, PT. VeroCaffè Indonesia</h4>
+    </footer>
+    <script src="res/js/script.js"></script>
 </body>
 </html>
