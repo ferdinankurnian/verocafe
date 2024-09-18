@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     } 
 
-
     /// Active Navbar Indicator Page ///
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-item a');
@@ -45,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
 
     
     // Carousel Control
@@ -114,6 +114,8 @@ document.addEventListener('DOMContentLoaded', () => {
         startAutoplay();
     });
     }
+
+
 
     // Function to open a modal
     function openModal(modalId) {
